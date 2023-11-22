@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
-title: Paweł Rycerz's homepage
-description: Bookmark this to keep an eye on my project updates!
+cayman:
+  title: "Moja Strona"
+  description: "Opis mojej strony"

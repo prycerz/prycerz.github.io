@@ -1,24 +1,26 @@
+---
+layout: default
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moja Strona</title>
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <!-- Dodaj inne metatagi lub style w zależności od potrzeb -->
 </head>
 <body>
     <header>
-        <h1>Witaj na Mojej Stronie!</h1>
+        <h1>{{ site.title }}</h1>
+        <p>{{ site.description }}</p>
     </header>
-    <section>
-        <h2>O mnie</h2>
-        <p>Cześć! Nazywam się [Twoje Imię] i to jest moja strona internetowa.</p>
-    </section>
-    <section>
-        <h2>Projekty</h2>
-        <p>Tutaj znajdziesz opisy moich projektów.</p>
-    </section>
+
+    <!-- Treść strony -->
+
     <footer>
-        <p>&copy; 2023 [Twoje Imię]</p>
+        <p>Copyright © {{ site.title }} {{ site.time | date: "%Y" }}</p>
     </footer>
 </body>
 </html>

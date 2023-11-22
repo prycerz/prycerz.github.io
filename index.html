@@ -17,10 +17,48 @@ layout: default
         <p>{{ site.description }}</p>
     </header>
 
-    <!-- Treść strony -->
+    <section id="about">
+        <h2>O mnie</h2>
+        <p>Witaj! Nazywam się [Twoje Imię] i jestem [Twoje Zawód]. Mam doświadczenie w [Twoja Branża] oraz umiejętności w [Twoje Umiejętności]. Jestem gotowy/a na nowe wyzwania i rozwijanie się w [Nazwa Firmy]!</p>
+    </section>
+
+    <section id="experience">
+        <h2>Doświadczenie zawodowe</h2>
+        <ul>
+            <li>
+                <h3>[Nazwa Firmy] - [Stanowisko]</h3>
+                <p><strong>Data rozpoczęcia - Data zakończenia</strong></p>
+                <p>Tutaj opisz krótko swoje obowiązki i osiągnięcia w danej firmie.</p>
+            </li>
+            <!-- Dodaj więcej elementów listy dla innych miejsc pracy -->
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Wykształcenie</h2>
+        <ul>
+            <li>
+                <h3>[Nazwa Uczelni] - [Stopień]</h3>
+                <p><strong>Data rozpoczęcia - Data zakończenia</strong></p>
+                <p>Opisz krótko kierunek studiów i ewentualne osiągnięcia akademickie.</p>
+            </li>
+            <!-- Dodaj więcej elementów listy dla innych miejsc edukacji -->
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Umiejętności</h2>
+        <ul>
+            <li>[Umiejętność 1]</li>
+            <li>[Umiejętność 2]</li>
+            <li>[Umiejętność 3]</li>
+            <!-- Dodaj więcej elementów listy dla innych umiejętności -->
+        </ul>
+    </section>
 
     <footer>
         <p>Copyright © {{ site.title }} {{ site.time | date: "%Y" }}</p>
     </footer>
 </body>
 </html>
+
